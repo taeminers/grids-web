@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.ttml": "xml",
+    "*.ttss": "css"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  }
+}
