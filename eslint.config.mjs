@@ -51,8 +51,9 @@ const eslintConfig = [
       "prettier/prettier": ["error", {}, { usePrettierrc: true }],
       "check-file/filename-naming-convention": [
         "error",
+
         {
-          "**/*.{ts,tsx}": "KEBAB_CASE",
+          "**/!(*.stories).{ts,tsx}": "KEBAB_CASE",
         },
       ],
     },
