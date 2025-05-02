@@ -53,7 +53,7 @@ const eslintConfig = [
         "error",
 
         {
-          "**/!(*.stories).{ts,tsx}": "KEBAB_CASE",
+          "**/!(*.stories|*.config).{ts,tsx}": "KEBAB_CASE",
         },
       ],
     },
