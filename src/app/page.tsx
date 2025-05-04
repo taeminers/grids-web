@@ -1,14 +1,10 @@
-import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
-      Static
-      <br />
-      <Link href="dashboard">Dashboard Page</Link>
-      <br />
-      <Link href="about">About Page</Link>
-      <Link href="wowzers">Cookies</Link>
+    <div className="flex-center">
+      <h1 className="rounded-zm">Hello</h1>
+      <Button>Log in</Button>
     </div>
   );
 }
