@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark*));
+
+@layer base {
+  h1 {
+    @apply text-orange-700 text-2xl font-bold;
+  }
+}
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
