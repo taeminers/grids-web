@@ -17,10 +17,12 @@ export const Toggle = () => {
   }, [darkMode]);
   return (
     <Button
-      className="w-9 h-9 lg:w-10 lg:h-10 flex-center rounded-full bg-amber-500 text-neutral-950 shadow-lg hover:bg-amber-600 transition-colors hover:cursor-pointer"
+      className="flex-center bg-content h-9 w-9 rounded-full shadow-lg transition-colors hover:cursor-pointer lg:h-10 lg:w-10"
       onClick={toggleDarkMode}
     >
-      <i className="size-4 text-lg lg:text-xl"></i>
+      <i
+        className={`bx bx-${darkMode ? "sun" : "moon"} text-lg lg:text-xl`}
+      ></i>
     </Button>
   );
 };
